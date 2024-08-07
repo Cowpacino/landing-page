@@ -82,9 +82,13 @@ button {
     align-self: flex-start
 }
 
+.image-container {
+    margin: 15px;
+}
+
 .image-container img{
+    max-width: 100%;
     width: 500px;
-    margin-top: 10px;
 }
 
 .information-container {
@@ -111,6 +115,7 @@ button {
 
 .box-container img {
     width: 250px;
+    max-width: 100%;
 }
 
 .box-content-container {
